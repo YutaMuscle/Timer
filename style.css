@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+
+
+.until {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.timer {
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+} 
+
+.message {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+
+@media (max-width:450px) { 
+
+    .timer {
+        max-width: 281px;
+        margin: auto;
+    }
+
+    .message {      
+        max-width: 281px;
+        margin: auto;
+    }
+}
